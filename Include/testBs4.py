@@ -50,7 +50,7 @@ print('------------------------------------------')
 t_list=bs.find_all(id='head')
 for item in t_list:
     print(item)
-t_list=bs.find_all(class_=True) # 表示包含class及其子内容
+t_list=bs.find_all(class_=True) # 表示包含class及其子内容  【跟系统的class区分，表示类的属性】
 t_list=bs.find_all(href='www.baidu.com')
 print('------------------------------------------')
 #text 参数
